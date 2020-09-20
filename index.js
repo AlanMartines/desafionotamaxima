@@ -20,31 +20,6 @@ const Crawler = require('crawler');
   await page.type('input[name="user_session[password]"]', '****', {delay: 100});
   await page.keyboard.press('Enter');
   await page.waitForNavigation();
-  
-/*
-  //Clicando no seletor
-  await page.waitFor('#wrapper > a');
-  await page.click('#wrapper > a');
 
-  //Pesquisa
-  await page.goto(sitepesquisa);
-
-  // Realiza screenshot
-  await page.screenshot({path:'pneu-195-55-15.png', fullPage:true});
-
-  const raspar = new Crawler({
-    callback : function (error,res,done){
-      if(error){
-        console.log(error);
-      }else{
-        const $ = res.$;
-        console.log($('#wrapper > div.centerdiv > div.gridProd').text().trim())
-      }
-      done();
-    }
-  });
-  raspar.queue(sitepesquisa);
-
-  await browser.close();
-  */
+  //await browser.close();
 })();
