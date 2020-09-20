@@ -1,0 +1,28 @@
+{
+  "name": "desafionotamaxima",
+  "version": "1.0.0",
+  "description": "O projeto contempla a inserção do cidadão no mundo legal, na medida em que atua como suporte na compreensão de que a cidadania plena pressupõe direitos, deveres e limites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanMartines/desafionotamaxima.git"
+  },
+  "keywords": [
+    "desafio",
+    "nota",
+    "maxima"
+  ],
+  "author": "Alan Martines <alancpmartines@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlanMartines/desafionotamaxima/issues"
+  },
+  "homepage": "https://github.com/AlanMartines/desafionotamaxima#readme",
+  "dependencies": {
+    "crawler": "^1.2.2",
+    "puppeteer": "^5.3.0"
+  }
+}
